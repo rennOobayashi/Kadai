@@ -30,6 +30,9 @@ int main() {
 		int cnt = 0;
 		float avg = 0.0f;
 
+		//Structural dependency and data dependency issues occur
+		//fscanf(txt_file, "%d %d %d %d", &num, &lang, &eng, &math);
+
 		char* token;
 		char* context = NULL;
 
